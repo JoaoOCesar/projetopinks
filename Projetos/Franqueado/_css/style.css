@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(255, 226, 231);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 15, 95);
+}
+
+#dr{
+    position:relative;
+    left: 65px;
+}
+
+h1{
+    line-height: 10px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Alkatra' cursive;
+    text-shadow:1px 2px 3px black;
+}
+
+li{
+   font-size: 20px;
+   padding: 15px; 
+   display: inline-block;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+a:hover {
+    border-bottom: white;
+}
+
+#btn{
+    padding: 10px;
+    border: 2px solid rgb(255, 48, 83);
+    border-radius: 5px;
+}
+
+#btnEnviar{
+    padding: 10px;
+    border: 2px solid rgb(255, 48, 83);
+    border-radius: 5px;
+}
+
+#btnEnviar:hover{
+    background-color: rgb(255, 240, 245); ;
+    color: rgba(255, 63, 92, 0.655);
+}
+
+input{
+   padding: 10px; 
+   margin-top: 16px;
+   border-radius: 10px;
+   border:rgb(255, 48, 83);
+}
+
+#btn:hover{
+    background-color: rgb(255, 240, 245); ;
+    color: rgba(255, 63, 92, 0.655);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    color:rgb(255, 48, 83) ;
+}
+
+h2{
+    font-size: 50px;
+    margin: 25px;
+    line-height: 35px;
+    font-family: 'Alkatra' cursive;
+}
+
+p{
+    font-family: 'Alkatra' cursive;
+    max-width: 500px;
+    margin: 25px;
+    line-height: normal;
+    text-align: justify
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 5px;
+    list-style: none;
+}
+form[type="submit"]{
+    background-color: rgb(255, 48, 83) ;
+    color: rgb(255, 48, 83);
+    font-weight: bold;
+}
+form[type="submit"]{
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.title>img{
+    display: flex;
+    width: 50px;
+    top: 45px;
+    left: 37px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
